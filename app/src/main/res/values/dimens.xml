@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_height">150dp</dimen>
+    <dimen name="message_image">@dimen/image_height</dimen>
+    <dimen name="corner_radius">8dp</dimen>
+    <dimen name="search_icon_width">24dp</dimen>
+    <dimen name="search_icon_height">@dimen/search_icon_width</dimen>
+</resources>

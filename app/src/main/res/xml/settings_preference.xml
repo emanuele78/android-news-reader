@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:title="@string/settings_menu">
+
+    <PreferenceCategory
+        android:key="@string/settings_visualization_category_key"
+        android:title="@string/settings_visualization_category_title">
+
+        <ListPreference
+            android:defaultValue="@string/settings_news_per_page_default"
+            android:entries="@array/settings_news_per_page_labels"
+            android:entryValues="@array/settings_news_per_page_values"
+            android:key="@string/settings_news_per_page_key"
+            android:title="@string/settings_news_per_page_title"/>
+        <ListPreference
+            android:defaultValue="@string/settings_news_per_row_default"
+            android:entries="@array/settings_news_per_row_labels"
+            android:entryValues="@array/settings_news_per_row_values"
+            android:key="@string/settings_news_per_row_key"
+            android:title="@string/settings_news_per_row_title"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="@string/settings_sections_category_key"
+        android:title="@string/settings_sections_category_title">
+
+        <CheckBoxPreference
+            android:key="@string/settings_section_business_key"
+            android:summaryOff="@string/settings_section_business_summary_off"
+            android:summaryOn="@string/settings_section_business_summary_on"
+            android:title="@string/settings_section_business_title"/>
+
+        <CheckBoxPreference
+            android:key="@string/settings_section_travel_key"
+            android:summaryOff="@string/settings_section_travel_summary_off"
+            android:summaryOn="@string/settings_section_travel_summary_on"
+            android:title="@string/settings_section_travel_title"/>
+
+        <CheckBoxPreference
+            android:key="@string/settings_section_lifestyle_key"
+            android:summaryOff="@string/settings_section_lifestyle_summary_off"
+            android:summaryOn="@string/settings_section_lifestyle_summary_on"
+            android:title="@string/settings_section_lifestyle_title"/>
+
+        <CheckBoxPreference
+            android:key="@string/settings_section_culture_key"
+            android:summaryOff="@string/settings_section_culture_summary_off"
+            android:summaryOn="@string/settings_section_culture_summary_on"
+            android:title="@string/settings_section_culture_title"/>
+
+        <CheckBoxPreference
+            android:key="@string/settings_section_world_key"
+            android:summaryOff="@string/settings_section_world_summary_off"
+            android:summaryOn="@string/settings_section_world_summary_on"
+            android:title="@string/settings_section_world_title"/>
+
+        <CheckBoxPreference
+            android:key="@string/settings_section_tech_key"
+            android:summaryOff="@string/settings_section_tech_summary_off"
+            android:summaryOn="@string/settings_section_tech_summary_on"
+            android:title="@string/settings_section_tech_title"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="@string/settings_search_category_key"
+        android:title="@string/settings_search_category_title">
+
+        <ListPreference
+            android:defaultValue="@string/settings_results_per_page_default"
+            android:entries="@array/settings_news_per_page_labels"
+            android:entryValues="@array/settings_news_per_page_values"
+            android:key="@string/settings_results_per_page_key"
+            android:title="@string/settings_results_per_page_title"/>
+
+        <ListPreference
+            android:defaultValue="@string/settings_order_by_default"
+            android:entries="@array/settings_order_by_labels"
+            android:entryValues="@array/settings_order_by_values"
+            android:key="@string/settings_order_by_key"
+            android:title="@string/settings_order_by_title"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>

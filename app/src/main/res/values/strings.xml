@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name" translatable="false">News App</string>
+    <string name="no_internet_message">No Internet Connection!</string>
+    <string name="no_data_message">No data to display!</string>
+    <string name="unable_to_open_news">Unable to open the news</string>
+    <string name="search_button_text">search</string>
+    <!-- menu -->
+    <string name="settings_menu">Settings</string>
+    <string name="title_activity_settings">App  Settings</string>
+
+    <!-- rows per page preference -->
+    <string name="settings_10_news_per_page_label">10</string>
+    <string name="settings_15_news_per_page_label">15</string>
+    <string name="settings_20_news_per_page_label">20</string>
+    <string name="settings_10_news_per_page_value" translatable="false">10</string>
+    <string name="settings_15_news_per_page_value" translatable="false">15</string>
+    <string name="settings_20_news_per_page_value" translatable="false">20</string>
+    <string name="settings_news_per_page_key" translatable="false">news_per_page_preference_key</string>
+    <string name="settings_news_per_page_title">News per section</string>
+    <string name="settings_news_per_page_default" translatable="false">@string/settings_10_news_per_page_value</string>
+
+    <!--news per row preference -->
+    <string name="settings_1_news_per_row_label">1</string>
+    <string name="settings_2_news_per_row_label">2</string>
+    <string name="settings_auto_news_per_row_label">Auto</string>
+    <string name="settings_1_news_per_row_value" translatable="false">1</string>
+    <string name="settings_2_news_per_row_value" translatable="false">2</string>
+    <string name="settings_auto_news_per_row_value" translatable="false">auto</string>
+    <string name="settings_news_per_row_key" translatable="false">news_per_row_preference_key</string>
+    <string name="settings_news_per_row_title">News per row</string>
+    <string name="settings_news_per_row_default" translatable="false">@string/settings_1_news_per_row_value</string>
+
+    <!-- search preference -->
+    <string name="settings_newest_order_by_label">Newest</string>
+    <string name="settings_oldest_order_by_label">Oldest</string>
+    <string name="settings_relevance_order_by_label">Relevance</string>
+    <string name="settings_newest_order_by_value" translatable="false">newest</string>
+    <string name="settings_oldest_order_by_value" translatable="false">oldest</string>
+    <string name="settings_relevance_order_by_value" translatable="false">relevance</string>
+    <string name="search_hint">Text to search</string>
+    <string name="settings_results_per_page_key" translatable="false">result_to_show_preference_key</string>
+    <string name="settings_results_per_page_title">Results to show</string>
+    <string name="settings_results_per_page_default" translatable="false">@string/settings_10_news_per_page_value</string>
+    <string name="settings_order_by_key" translatable="false">oder_by_preference_key</string>
+    <string name="settings_order_by_title">Order results by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_newest_order_by_value</string>
+    <string name="empty_edittext_toast">Insert some text to search</string>
+
+    <!-- rows per page category preference -->
+    <string name="settings_visualization_category_key" translatable="false">settings_visualization_category_key</string>
+    <string name="settings_visualization_category_title">Sections Style</string>
+
+    <!-- sections to show category preference -->
+    <string name="settings_sections_category_key" translatable="false">settings_sections_category_key</string>
+    <string name="settings_sections_category_title">Sections to Show</string>
+
+    <!-- search category preference -->
+    <string name="settings_search_category_key" translatable="false">settings_search_category_key</string>
+    <string name="settings_search_category_title">Search Options</string>
+
+    <!-- business section preference-->
+    <string name="settings_section_business_key" translatable="false">settings_section_business</string>
+    <string name="settings_section_business_title">Business</string>
+    <string name="settings_section_business_summary_on">Show business section</string>
+    <string name="settings_section_business_summary_off">Hide business section</string>
+
+    <!-- culture section preference-->
+    <string name="settings_section_culture_key" translatable="false">settings_section_culture</string>
+    <string name="settings_section_culture_title">Culture</string>
+    <string name="settings_section_culture_summary_on">Show culture section</string>
+    <string name="settings_section_culture_summary_off">Hide culture section</string>
+
+    <!-- tech section preference-->
+    <string name="settings_section_tech_key" translatable="false">settings_section_tech</string>
+    <string name="settings_section_tech_title">Technology</string>
+    <string name="settings_section_tech_summary_on">Show technology section</string>
+    <string name="settings_section_tech_summary_off">Hide technology section</string>
+
+    <!-- world section preference-->
+    <string name="settings_section_world_key" translatable="false">settings_section_world</string>
+    <string name="settings_section_world_title">World</string>
+    <string name="settings_section_world_summary_on">Show world section</string>
+    <string name="settings_section_world_summary_off">Hide world section</string>
+
+    <!-- lifestyle section preference-->
+    <string name="settings_section_lifestyle_key" translatable="false">settings_section_lifestyle</string>
+    <string name="settings_section_lifestyle_title">Life and Style</string>
+    <string name="settings_section_lifestyle_summary_on">Show life and style section</string>
+    <string name="settings_section_lifestyle_summary_off">Hide life and style section</string>
+
+    <!-- travel section preference-->
+    <string name="settings_section_travel_key" translatable="false">settings_section_travel</string>
+    <string name="settings_section_travel_title">Travel</string>
+    <string name="settings_section_travel_summary_on">Show travel section</string>
+    <string name="settings_section_travel_summary_off">Hide travel section</string>
+
+    <!-- tab titles and url parameters for sections -->
+    <string name="front_page_tab">Front Page</string>
+    <string name="search_tab">Search</string>
+    <string name="business_tab_title">Business</string>
+    <string name="business_url_parameter" translatable="false">business</string>
+
+    <string name="travel_tab_title">Travel</string>
+    <string name="travel_url_parameter" translatable="false">travel</string>
+
+    <string name="lifestyle_tab_title">Life &amp; Style</string>
+    <string name="lifestyle_url_parameter" translatable="false">lifeandstyle</string>
+
+    <string name="world_tab_title">World</string>
+    <string name="world_url_parameter" translatable="false">world</string>
+
+    <string name="culture_tab_title">Culture</string>
+    <string name="culture_url_parameter" translatable="false">culture</string>
+
+    <string name="tech_tab_title">Technology</string>
+    <string name="tech_url_parameter" translatable="false">technology</string>
+</resources>
