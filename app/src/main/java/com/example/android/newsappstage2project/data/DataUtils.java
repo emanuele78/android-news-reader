@@ -70,6 +70,7 @@ public class DataUtils {
     //constants for the connection
     private static final int READ_TIMEOUT = 10000;
     private static final int CONNECT_TIMEOUT = 15000;
+    public static final String GUARDIAN_API_KEY = "test";
     /**
      * Returns the json string response from the server at the specified url api
      *
