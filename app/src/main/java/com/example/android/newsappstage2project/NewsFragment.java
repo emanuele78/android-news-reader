@@ -104,7 +104,7 @@ public class NewsFragment extends Fragment implements LoaderManager.LoaderCallba
         Uri.Builder uriBuilder = baseUri.buildUpon();
         uriBuilder.appendQueryParameter("order-by", DataUtils.ORDER_BY);
         uriBuilder.appendQueryParameter("page-size", DataUtils.pageSize);
-        uriBuilder.appendQueryParameter("api-key", BuildConfig.GUARDIAN_API_KEY);
+        uriBuilder.appendQueryParameter("api-key", DataUtils.GUARDIAN_API_KEY);
         uriBuilder.appendQueryParameter("show-fields", DataUtils.FIELDS);
         uriBuilder.appendQueryParameter("show-tags", DataUtils.TAGS);
         if (urlSection != null) {
