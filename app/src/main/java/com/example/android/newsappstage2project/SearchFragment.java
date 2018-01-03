@@ -116,7 +116,7 @@ public class SearchFragment extends Fragment implements LoaderManager.LoaderCall
         Uri.Builder uriBuilder = baseUri.buildUpon();
         uriBuilder.appendQueryParameter("order-by", orderBy);
         uriBuilder.appendQueryParameter("page-size", resultsToShow);
-        uriBuilder.appendQueryParameter("api-key", BuildConfig.GUARDIAN_API_KEY);
+        uriBuilder.appendQueryParameter("api-key", DataUtils.GUARDIAN_API_KEY);
         uriBuilder.appendQueryParameter("show-fields", DataUtils.FIELDS);
         uriBuilder.appendQueryParameter("show-tags", DataUtils.TAGS);
         uriBuilder.appendQueryParameter("q", userSearch);
